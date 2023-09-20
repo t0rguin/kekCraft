@@ -1,9 +1,9 @@
 :root {
     --nice-padding: 6rem;
     --roundness: 0.75rem;
-    --accent1: #02db02;
-    --accent2: #05b305;
-    --accent2_transp: #05b30555;
+    --accent1: #ff5555;
+    --accent2: #aa0000;
+    --accent2_transp: #aa0000ff;
     --background1: #212529;
     --background2: #16191b;
 
@@ -78,19 +78,19 @@ body {
     background-color: #00000022;
     backdrop-filter: blur(15px);
     z-index: 5;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
     flex-direction: row;
 }
 
 .desktop_navbar_logo_img {
-    width: 5rem;
+    width: 4rem;
     padding-left: 2rem;
     padding-right: 1rem;
 }
 
 .desktop_navbar_link {
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     padding: .8rem;
     transition: all .5s;
     text-decoration: none;
